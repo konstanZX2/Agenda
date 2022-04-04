@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Contacto contacto1 = new Contacto("Alba", "633453212", "alba@gmail.com", "Calle la rosaleda 21,2oB");
         Contacto contacto2 = new Contacto("Juan","62232321","Juan@hotmail.es",null);
-
+        //Agenda agenda = new Agenda();
+        //System.out.println(agenda);         ESto para hacer lo del to string de agenda
+        Contacto contacto = agenda.borrarContacto(0);
+        Contact setName
 
              Scanner escaneado =  new Scanner(System.in);
         System.out.println("AGENDA");
